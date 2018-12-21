@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/action_bar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginBottom="15dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="279dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/topbackground" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/recog"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginLeft="314dp"
+            android:background="@drawable/saero"/>
+
+        <RelativeLayout
+            android:id="@+id/mapLayout"
+            android:layout_marginTop="67dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="321dp"
+            android:layout_height="130dp"
+            android:orientation="horizontal">
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="위의 주소가 맞습니까?"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="210dp"/>
+
+        <ImageButton
+            android:id="@+id/btnyes"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="240dp"
+            android:textSize="30dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/btn_yes"/>
+
+        <ImageButton
+            android:id="@+id/btnno"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="240dp"
+            android:textSize="30dp"
+            android:layout_marginLeft="140dp"
+            android:background="@drawable/btn_no"/>
+
+        <ImageButton
+            android:id="@+id/btnself"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="240dp"
+            android:textSize="30dp"
+            android:layout_marginLeft="220dp"
+            android:background="@drawable/btn_self"/>
+
+
+    </FrameLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/bottomback"/>
+
+    <ImageButton
+        android:id="@+id/btnInfo"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/btninfo"/>
+    
+
+
+</LinearLayout>

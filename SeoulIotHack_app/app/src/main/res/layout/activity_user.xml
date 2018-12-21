@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/ilban"/>
+
+    <ImageView
+        android:layout_width="167dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/talcoo" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginBottom="30dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/backpage"/>
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/domun" />
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="140dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/daepiro" />
+
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="330dp"
+            android:background="@drawable/saero" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp">
+
+        <ImageView
+            android:id="@+id/img_direction"
+            android:layout_width="182dp"
+            android:layout_height="186dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/img_direction"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/img_direction_right"
+            android:layout_width="172dp"
+            android:layout_height="186dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/img_direction_right"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/img_direction_left"
+            android:layout_width="172dp"
+            android:layout_height="186dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/img_direction_left"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/img_direction_down"
+            android:layout_width="182dp"
+            android:layout_height="186dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/img_direction_down"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="278dp" />
+
+    </FrameLayout>
+
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sori" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/listLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/txtFloor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="0층"
+        android:textSize="15dp"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/txtPerson"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="5명 예상"
+        android:textSize="15dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtState"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="화재발생"
+        android:textSize="12dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/colorBar"/>
+
+
+
+</LinearLayout>
